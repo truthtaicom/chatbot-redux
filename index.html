@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="conversation_list" class="conversation_list"></div>
+      <div>
+        <form id="conversation_form">
+          <div class="form-row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                id="conversation_input"
+                placeholder="Your text"
+              />
+            </div>
+            <div class="col-2">
+              <button
+                type="submit"
+                id="conversation_submit"
+                class="btn btn-primary mb-2"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
